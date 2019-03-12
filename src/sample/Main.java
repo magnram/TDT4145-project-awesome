@@ -22,10 +22,9 @@ public class Main extends Application {
         try {
 			dao.readDataBase();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+        }
+
         launch(args);
-        
     }
 }

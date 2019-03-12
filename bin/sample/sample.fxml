@@ -6,11 +6,11 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-image: url('..\..\Media\background.jpg');" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-image: url('..\res\background.jpg');" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <ImageView fitHeight="500.0" fitWidth="800.0">
          <image>
-            <Image url="@../../Media/background.jpg" />
+            <Image url="@../res/background.jpg" />
          </image>
       </ImageView>
       <Button fx:id="button" layoutX="118.0" layoutY="85.0" mnemonicParsing="false" onAction="#onButtonClick" text="Click " />
