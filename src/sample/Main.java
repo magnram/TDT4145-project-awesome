@@ -18,13 +18,14 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        launch(args);
-        MySQLAccess dao = new MySQLAccess();
+    	MySQLAccess dao = new MySQLAccess();
         try {
 			dao.readDataBase();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+        launch(args);
+        
     }
 }
